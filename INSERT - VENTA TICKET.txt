@@ -1,0 +1,123 @@
+-- USUARIOS
+
+INSERT INTO usuario (password,rut,nombre,apellido,correo,num_telefono,sexo,tipo) values 
+('xyw123xyw','10123123','Juan','Martinez','juan.matinez@gmail.com',943564534,'M','comprador'),
+('24ff24ff','11111111','Maria','Sandoval','maria.sandoval@gmail.com',953432539,'F','comprador'),
+('12345abc','12222222','Pedro','Rojas','pedro.rojas@gmail.com',992637856,'M','comprador'),
+('12a34b56c','22222222','Barbara','Prieto','barbara.prieto@gmail.com',958834256,'F','comprador'),
+('20aa20hh','12345678','Sofia','Perez','sofia.perez@gmail.com',958834256,'F','comprador'),
+('67890abc','12211221','Manuel','Peña','manuel.peña@gmail.com',987656741,'M','comprador'),
+('21b43c65a','33333333','Natalia','Bernal','natalia.bernal@gmail.com',911974556,'F','comprador'),
+('483kk44kk','12124545','Marcelo','Olmos','marcelo.olmos@gmail.com',987654888,'M','comprador'),
+('4543gg543','99999999','Leon','Carreno','leon.carreno@gmail.com',945556634,'M','admin'),
+('123adcd123','88889999','Luis','Vera','luis.vera@gmail.com',945776655,'M','admin');
+
+-- EVENTOS
+
+INSERT INTO evento (fecha,hora,nombre,lugar,descripcion,categoria,capacidad) values 
+('2020-09-18','18:00:00','Mega Ramada 18chera','plaza victoria','Ramadas para celebrar el 18 de septiembre','familiares',20),
+('2020-09-22','10:00:00','Bad Bunny','Sport club','Concierto de artista Bad Bunny','conciertos',20),
+('2020-09-22','19:00:00','Bad Bunny','Sporting Viña del Mar','Concierto de artista Bad Bunny','conciertos',20),
+('2020-09-24','10:00:00','Lollapalooza','Movistar Arena','Festival internacional de musica','conciertos',20),
+('2020-09-25','10:00:00','Lollapalooza','Movistar Arena','Festival internacional de musica','conciertos',20),
+('2020-09-26','16:00:00','Lollapalooza','Movistar Arena','Festival internacional de musica','conciertos',20),
+('2020-09-26','21:00:00','Festival musical 3ra edicion','plaza viña del mar','Festival nacional de Rock','especiales',20),
+('2020-09-27','14:00:00','Discurso nacional','reloj de flores','Discurso Presidencial nueva constitucion','especiales',20),
+('2020-10-01','14:00:00','Santiago Wanders vs Everton','Estadio Sausalito','Superclasico de futboll Valparaiso','Deportes',20),
+('2020-10-02','16:00:00','100 años Locomotora ','plaza manuel mont','Celebracion del aniversario 100 de la Locomotora','especiales',20);
+
+-- TICKET(20) DE EVENTO 1
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1"),(1,1000,"1");
+
+-- TICKET(20) DE EVENTO 2
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1"),(2,2000,"1");
+
+-- TICKET(20) DE EVENTO 3
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1"),(3,3000,"1");
+
+-- TICKET(20) DE EVENTO 4
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1"),(4,4000,"1");
+
+-- TICKET(20) DE EVENTO 5
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1"),(5,5000,"1");
+
+-- TICKET(20) DE EVENTO 6
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1"),(6,5000,"1");
+
+-- TICKET(20) DE EVENTO 7
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1"),(7,7000,"1");
+
+-- TICKET(20) DE EVENTO 8
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1"),(8,10000,"1");
+
+-- TICKET(20) DE EVENTO 9
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1"),(9,10000,"1");
+
+-- TICKET(20) DE EVENTO 10
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1");
+INSERT INTO ticket (id_evento,precio,disponible) VALUES (10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1"),(10,15000,"1");
+
+-- VENTA al momento de finalizar una compra
+
+INSERT INTO venta (monto_total,hora,direccion,fecha) values 
+(3000,'16:00:00','Avenida San Fernando','2020-08-16'),
+('6000','20:00:00','Avenida San Nicolás','2020-08-16'),
+('9000','22:00:00','Avenida San Miguel','2020-08-17'),
+('12000','17:00:00','Avenida San Jose','2020-08-17'),
+('15000','15:00:00','Avenida San Alejandro','2020-08-17'),
+('15000','21:00:00','Avenida San Manuel','2020-08-17'),
+('21000','23:00:00','Avenida San Bernando','2020-08-17'),
+('30000','12:00:00','Avenida San Hurtado','2020-08-17'),
+('30000','13:00:00','Avenida San Fernando','2020-08-17'),
+('45000','11:00:00','Avenida San Jose','2020-08-17');
+
+-- REGISTRAMOS LOS TICKET DE CADA VENTA EN LA TABLA 'TICKET_VENTA'
+INSERT INTO ticket_venta(id_ticket,id_venta) values (1,1),(2,1),(3,1),(21,2),(22,2),(23,2),(41,3),(42,3),(43,3),(61,4);
+INSERT INTO ticket_venta(id_ticket,id_venta) values (62,4),(63,4),(81,5),(82,5),(83,5),(101,6),(102,6),(103,6),(121,7),(122,7);
+INSERT INTO ticket_venta(id_ticket,id_venta) values (123,7),(141,8),(142,8),(143,8),(161,9),(162,9),(163,9),(181,10),(182,10),(183,10);
+
+-- MODIFICAR EL DUEÑO Y DISPONIBILIDAD DE CADA TICKET COMPRADO EN VENTA
+UPDATE ticket set id_usuario = 1,disponible = 0 where id_ticket = 1;
+UPDATE ticket set id_usuario = 1,disponible = 0 where id_ticket = 2;
+UPDATE ticket set id_usuario = 1,disponible = 0 where id_ticket = 3;
+UPDATE ticket set id_usuario = 2,disponible = 0 where id_ticket = 21;
+UPDATE ticket set id_usuario = 2,disponible = 0 where id_ticket = 22;
+UPDATE ticket set id_usuario = 2,disponible = 0 where id_ticket = 23;
+UPDATE ticket set id_usuario = 3,disponible = 0 where id_ticket = 41;
+UPDATE ticket set id_usuario = 3,disponible = 0 where id_ticket = 42;
+UPDATE ticket set id_usuario = 3,disponible = 0 where id_ticket = 43;
+UPDATE ticket set id_usuario = 4,disponible = 0 where id_ticket = 61;
+UPDATE ticket set id_usuario = 4,disponible = 0 where id_ticket = 62;
+UPDATE ticket set id_usuario = 4,disponible = 0 where id_ticket = 63;
+UPDATE ticket set id_usuario = 5,disponible = 0 where id_ticket = 81;
+UPDATE ticket set id_usuario = 5,disponible = 0 where id_ticket = 82;
+UPDATE ticket set id_usuario = 5,disponible = 0 where id_ticket = 83;
+UPDATE ticket set id_usuario = 6,disponible = 0 where id_ticket = 101;
+UPDATE ticket set id_usuario = 6,disponible = 0 where id_ticket = 102;
+UPDATE ticket set id_usuario = 6,disponible = 0 where id_ticket = 103;
+UPDATE ticket set id_usuario = 7,disponible = 0 where id_ticket = 121;
+UPDATE ticket set id_usuario = 7,disponible = 0 where id_ticket = 122;
+UPDATE ticket set id_usuario = 7,disponible = 0 where id_ticket = 123;
+UPDATE ticket set id_usuario = 8,disponible = 0 where id_ticket = 141;
+UPDATE ticket set id_usuario = 8,disponible = 0 where id_ticket = 142;
+UPDATE ticket set id_usuario = 8,disponible = 0 where id_ticket = 143;
+UPDATE ticket set id_usuario = 9,disponible = 0 where id_ticket = 161;
+UPDATE ticket set id_usuario = 9,disponible = 0 where id_ticket = 162;
+UPDATE ticket set id_usuario = 9,disponible = 0 where id_ticket = 163;
+UPDATE ticket set id_usuario = 10,disponible = 0 where id_ticket = 181;
+UPDATE ticket set id_usuario = 10,disponible = 0 where id_ticket = 182;
+UPDATE ticket set id_usuario = 10,disponible = 0 where id_ticket = 183;
+
+
+
+
+
